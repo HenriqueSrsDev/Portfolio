@@ -1,4 +1,3 @@
-import { ExternalLink } from 'lucide-react'
 import { FaGithub } from 'react-icons/fa'
 import { projects } from '../data/portfolio'
 import { Section } from './Section'
@@ -22,10 +21,6 @@ export function Projects() {
                 <a href={project.github} target="_blank" rel="noreferrer">
                   <FaGithub size={17} />
                   GitHub
-                </a>
-                <a href={project.deploy} target="_blank" rel="noreferrer">
-                  <ExternalLink size={17} />
-                  Deploy
                 </a>
               </div>
             </div>

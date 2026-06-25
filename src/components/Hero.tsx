@@ -72,7 +72,7 @@ export function Hero() {
             <FaLinkedinIn size={18} />
             LinkedIn
           </a>
-          <a className="btn ghost" href={profile.resumeUrl} target="_blank" rel="noreferrer">
+          <a className="btn ghost" href={profile.resumeUrl} download target="_blank" rel="noreferrer">
             <Download size={18} />
             Curriculo
           </a>

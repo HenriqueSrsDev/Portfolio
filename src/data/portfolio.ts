@@ -90,6 +90,5 @@ export const projects = [
     image: heroArtwork,
     tags: ['React', 'Vite', 'TypeScript', 'CSS', 'Framer Motion'],
     github: 'https://github.com/HenriqueSrsDev/Portfolio',
-    deploy: '#',
   },
 ]
