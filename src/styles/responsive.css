@@ -1,0 +1,160 @@
+@media (max-width: 980px) {
+  .site-header {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: min(calc(100% - 24px), 760px);
+    overflow-x: auto;
+  }
+
+  .site-header::before {
+    border-radius: 22px;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  .header-actions {
+    flex: 0 0 auto;
+  }
+
+  .hero-section,
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-section {
+    gap: 44px;
+    min-height: auto;
+  }
+
+  h1 {
+    max-width: 11ch;
+    font-size: 4.4rem;
+  }
+
+  .hero-visual {
+    justify-content: center;
+    min-height: 440px;
+  }
+
+  .highlight-grid,
+  .projects-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-grid,
+  .github-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    width: calc(100% - 20px);
+  }
+
+  .brand {
+    min-width: 44px;
+    margin-left: 6px;
+  }
+
+  .nav-links a {
+    padding-inline: 10px;
+    font-size: 0.74rem;
+  }
+
+  .hero-section,
+  .section {
+    width: min(calc(100% - 28px), var(--container));
+  }
+
+  .hero-section {
+    padding: 112px 0 76px;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  .hero-summary {
+    font-size: 1rem;
+  }
+
+  .hero-actions,
+  .project-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .btn,
+  .project-actions a {
+    width: 100%;
+  }
+
+  .hero-visual {
+    min-height: 340px;
+  }
+
+  .portrait-shell {
+    width: min(100%, 290px);
+  }
+
+  .floating-badge {
+    display: none;
+  }
+
+  .hero-artwork {
+    right: -2%;
+    width: 210px;
+  }
+
+  .scroll-indicator {
+    display: none;
+  }
+
+  .section {
+    padding: 78px 0;
+  }
+
+  .section-heading {
+    margin-bottom: 34px;
+  }
+
+  .section-heading h2 {
+    font-size: 2.25rem;
+  }
+
+  .about-copy,
+  .highlight-card,
+  .tech-card,
+  .timeline-card,
+  .project-content,
+  .contact-card {
+    padding: 20px;
+  }
+
+  .timeline {
+    padding-left: 34px;
+  }
+
+  .timeline::before {
+    left: 8px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .timeline-item::before {
+    left: -32px;
+  }
+
+  .timeline-marker {
+    width: 84px;
+    height: 38px;
+  }
+}

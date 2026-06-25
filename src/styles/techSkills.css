@@ -1,0 +1,126 @@
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px 46px;
+}
+
+.tech-card {
+  position: relative;
+  padding: 22px;
+  cursor: pointer;
+  transition:
+    transform 240ms ease,
+    border-color 240ms ease,
+    background 240ms ease;
+}
+
+.tech-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.tech-topline h3 {
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+.tech-topline span {
+  display: inline-block;
+  margin-top: 5px;
+  color: var(--blue-light);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.tooltip-trigger {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+  border-radius: 999px;
+  color: var(--blue-light);
+  background: rgba(59, 130, 246, 0.09);
+  cursor: help;
+}
+
+.tooltip {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 12px);
+  z-index: 8;
+  width: min(270px, 76vw);
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  color: var(--text);
+  background: rgba(15, 23, 42, 0.96);
+  box-shadow: var(--shadow-card);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  backdrop-filter: blur(20px);
+  transition:
+    opacity 160ms ease,
+    transform 160ms ease;
+}
+
+.tooltip-trigger:hover .tooltip,
+.tooltip-trigger:focus .tooltip,
+.tooltip-trigger:focus-within .tooltip,
+.tech-card:hover .tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tooltip strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--blue-light);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.tooltip ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tooltip li {
+  padding: 4px 8px;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+  border-radius: 7px;
+  color: #bfdbfe;
+  background: rgba(59, 130, 246, 0.1);
+  font-size: 0.76rem;
+}
+
+.progress-track {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  box-shadow: 0 0 18px rgba(59, 130, 246, 0.62);
+}

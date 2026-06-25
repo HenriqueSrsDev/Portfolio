@@ -1,0 +1,28 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.contact-card {
+  display: grid;
+  gap: 9px;
+  min-height: 154px;
+  padding: 24px;
+  transition:
+    transform 240ms ease,
+    border-color 240ms ease,
+    background 240ms ease;
+}
+
+.contact-card span {
+  color: var(--soft);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.contact-card strong {
+  overflow-wrap: anywhere;
+  color: var(--text);
+}
