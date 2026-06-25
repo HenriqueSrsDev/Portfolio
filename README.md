@@ -1,5 +1,28 @@
 # Portfólio Profissional - Henrique Reis
 
+<p align="center">
+  <img
+    src="./public/readme-banner.png"
+    alt="Preview do Portfólio Profissional de Henrique Reis"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=646CFF" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=1572B6" />
+  <img alt="Framer Motion" src="https://img.shields.io/badge/Framer%20Motion-20232A?style=for-the-badge&logo=framer&logoColor=0055FF" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git&logoColor=F05032" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-20232A?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=FFFFFF" />
+</p>
+
+<p align="center">
+  <a href="https://henrique-portfolio-mu.vercel.app/">Acessar portfólio online</a>
+</p>
+
 Portfólio pessoal desenvolvido para apresentar minha trajetória acadêmica, evolução prática, tecnologias, projetos e canais de contato profissional.
 
 O objetivo deste site é servir como uma vitrine profissional para GitHub, LinkedIn, currículo e processos seletivos de estágio ou oportunidades na área de desenvolvimento de software.
