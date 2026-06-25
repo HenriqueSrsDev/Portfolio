@@ -53,7 +53,7 @@ Atualmente, a seção de projetos apresenta meu primeiro projeto publicado: este
 ## Estrutura do projeto
 
 ```text
-portfolio-henrique/
+./
 ├── public/
 │   ├── curriculo-henrique-reis.pdf
 │   └── favicon.png
@@ -128,11 +128,13 @@ Clone o repositório:
 git clone https://github.com/HenriqueSrsDev/Portfolio.git
 ```
 
-Acesse a pasta do projeto:
+Acesse a pasta criada pelo clone:
 
 ```bash
 cd Portfolio
 ```
+
+Caso você já tenha aberto a pasta raiz do projeto, onde ficam `package.json`, `src`, `public` e `vite.config.ts`, pode pular esse comando.
 
 Instale as dependências:
 
